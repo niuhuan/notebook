@@ -26,3 +26,33 @@ git push origin --delete <branchName>
 ```shell
 git push origin --delete tag <tagname>
 ```
+
+### http代理
+
+.gitconfig
+```
+[http "https://github.com"]
+proxy = socks5://127.0.0.1:10808/
+```
+
+### ssh代理
+
+#在~/.ssh/路径下创建config空文件，然后粘贴如下内容：
+
+windows
+```
+Host github.com
+  ProxyCommand connect -S 127.0.0.1:1080 %h %p
+```
+
+macos
+```
+Host github.com
+  ProxyCommand nc -X 5 -x 127.0.0.1:1080 %h %p
+```
+
+linux
+安装connect-proxy之后配置文件和windows保持一致
+```
+sudo apt install connect-proxy
+```

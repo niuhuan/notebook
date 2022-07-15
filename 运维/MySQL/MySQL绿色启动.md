@@ -12,7 +12,21 @@ mysql-8.0.26-macos11-x86_64/bin/mysqld --lower_case_table_names=2 --datadir=data
 ```
 
 ## 修改密码
-```
-set password = 123456 初始化密码
+```mysql
+
+set password = 123456
+
+-- 或者
+
+alter user user() identified by "123456";
+
+-- 或者
+
+alter user root@localhost identified with mysql_native_password by '123456';
+
+--
+
+FLUSH PRIVILEGES;
+
 ```
 

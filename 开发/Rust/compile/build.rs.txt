@@ -1,0 +1,23 @@
+
+```rust
+
+use fs_extra::dir::CopyOptions;
+use std::path::Path;
+
+fn main() {
+    let profile = std::env::var("PROFILE").unwrap();
+    let src = Path::new("bot_data");
+    let dst_buf = Path::new("target").join(&profile);
+    let dst = dst_buf.as_path();
+    let option = {
+        let mut option = CopyOptions::new();
+        option.overwrite = true;
+        option
+    };
+    if !dst.exists() {
+        std::fs::create_dir_all(dst).expect("not create dir");
+    }
+    fs_extra::dir::copy(src, dst, &option).expect("not found dir");
+}
+
+```

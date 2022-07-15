@@ -1,6 +1,6 @@
 
+### 构建llvm
 ```shell
-# 构建llvm
 cmake \
   -S llvm-project/llvm \
   -B llvm-build \
@@ -12,6 +12,7 @@ cmake \
   && cmake --install llvm-build 
 ```
 
+### llvm自编译
 ```shell
 cmake \
   -S llvm-project/llvm \
