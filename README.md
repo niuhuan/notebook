@@ -103,6 +103,7 @@ https://github.com/niuhuan/notebook/
     - [Win10启用SSH服务器并使用证书登录](系统/Windows/Win10启用SSH服务器并使用证书登录.md)
     - [禁用断电重启后进入恢复模式(无人值守)](系统/Windows/禁用断电重启后进入恢复模式(无人值守).md)
     - [将可执行程序注册成服务](系统/Windows/将可执行程序注册成服务.md)
+    - [WSL开启SSH](系统/Windows/WSL开启SSH.md)
     - [WSL禁用Windows环境变量](系统/Windows/WSL禁用Windows环境变量.md)
     - [解决端口没被占用但是无法使用](系统/Windows/解决端口没被占用但是无法使用.md)
     - [安装Chocolaty](系统/Windows/安装Chocolatey.md)

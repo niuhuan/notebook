@@ -10,4 +10,5 @@ Win10启用SSH服务器并使用证书登录
 
 注册表
 
-\HKEY_LOCAL_MACHINE\SOFTWARE\OpenSSH 中的 DefaultShell 项改为 powershell.exe 的位置, 可以修改默认shell程序
+\HKEY_LOCAL_MACHINE\SOFTWARE\OpenSSH 中的 DefaultShell 项改为 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe (powershell.exe 的位置), 
+可以修改默认shell程序
