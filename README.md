@@ -36,6 +36,7 @@ https://github.com/niuhuan/notebook/
     - [构建对应架构apk](开发/Flutter/构建对应架构apk.md)
     - [构建未签名的ipa](开发/Flutter/构建未签名的ipa.md)
   - Android
+    - [AVD将证书导入ROOT](开发/Android/AVD将证书导入ROOT.md)
     - [读取图片并保存到相册](开发/Android/读取图片并保存到相册.md)
     - [读取图片并转成PNG](开发/Android/读取图片并转成PNG.md)
   - Gradle
