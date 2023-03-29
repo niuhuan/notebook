@@ -106,6 +106,7 @@ https://github.com/niuhuan/notebook/
     - [将可执行程序注册成服务](系统/Windows/将可执行程序注册成服务.md)
     - [WSL开启SSH](系统/Windows/WSL开启SSH.md)
     - [WSL禁用Windows环境变量](系统/Windows/WSL禁用Windows环境变量.md)
+    - [WSL启动MYSQL](系统/Windows/WSL启动MYSQL.md)
     - [解决端口没被占用但是无法使用](系统/Windows/解决端口没被占用但是无法使用.md)
     - [安装Chocolaty](系统/Windows/安装Chocolatey.md)
     - [Windows端口映射](系统/Windows/Windows端口映射.md)
