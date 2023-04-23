@@ -111,6 +111,7 @@ https://github.com/niuhuan/notebook/
     - [安装Chocolaty](系统/Windows/安装Chocolatey.md)
     - [Windows端口映射](系统/Windows/Windows端口映射.md)
     - [Win10家庭版开启gpedit](系统/Windows/Win10家庭版开启gpedit.md)
+    - [STLC安装APPX](系统/Windows/STLC安装APPX.md)
 - 游戏
   - 工具
     - [远程游玩](游戏/工具/远程游玩.md)
