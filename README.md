@@ -39,6 +39,8 @@ https://github.com/niuhuan/notebook/
     - [AVD将证书导入ROOT](开发/Android/AVD将证书导入ROOT.md)
     - [读取图片并保存到相册](开发/Android/读取图片并保存到相册.md)
     - [读取图片并转成PNG](开发/Android/读取图片并转成PNG.md)
+  - Apple
+    - [超级签证书](开发/Apple/超级签证书.md)
   - Gradle
     - [BuildJar](开发/Gradle/BuildJar.md) 、
       [阿里镜像](开发/Gradle/阿里镜像.md) 、
@@ -112,11 +114,14 @@ https://github.com/niuhuan/notebook/
     - [Windows端口映射](系统/Windows/Windows端口映射.md)
     - [Win10家庭版开启gpedit](系统/Windows/Win10家庭版开启gpedit.md)
     - [STLC安装APPX](系统/Windows/STLC安装APPX.md)
+    - [Windows11跳过OOBE登录](系统/Windows/Windows11跳过OOBE登录.md)
 - 游戏
   - 工具
     - [远程游玩](游戏/工具/远程游玩.md)
   - 宝可梦
     - [图鉴与翻译](游戏/宝可梦/图鉴与翻译.md)
+  - 怪物猎人
+    - [NS平台XX/GU启用60帧](游戏/怪物猎人/NS平台XX-GU启用60帧.md) 
 - 其他
   - [GoogleVoice自动保号](其他/GoogleVoice自动保号.md)
 
