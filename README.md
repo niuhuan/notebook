@@ -115,6 +115,7 @@ https://github.com/niuhuan/notebook/
     - [Win10家庭版开启gpedit](系统/Windows/Win10家庭版开启gpedit.md)
     - [STLC安装APPX](系统/Windows/STLC安装APPX.md)
     - [Windows11跳过OOBE登录](系统/Windows/Windows11跳过OOBE登录.md)
+    - [Windows沙盒](系统/Windows/Windows沙盒.md)
 - 游戏
   - 工具
     - [远程游玩](游戏/工具/远程游玩.md)
@@ -122,6 +123,8 @@ https://github.com/niuhuan/notebook/
     - [图鉴与翻译](游戏/宝可梦/图鉴与翻译.md)
   - 怪物猎人
     - [NS平台XX/GU启用60帧](游戏/怪物猎人/NS平台XX-GU启用60帧.md) 
+  - 平台
+    - [Steam](游戏/平台/Steam.md) :  [自定义Cover和Banner下载](游戏/平台/Steam.md#自定义cover和banner下载)
 - 其他
   - [GoogleVoice自动保号](其他/GoogleVoice自动保号.md)
 
