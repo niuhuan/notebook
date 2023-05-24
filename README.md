@@ -127,4 +127,5 @@ https://github.com/niuhuan/notebook/
     - [Steam](游戏/平台/Steam.md) :  [自定义Cover和Banner下载](游戏/平台/Steam.md#自定义cover和banner下载)
 - 其他
   - [GoogleVoice自动保号](其他/GoogleVoice自动保号.md)
+  - [FFMPEG](其他/FFMPEG.md)
 
