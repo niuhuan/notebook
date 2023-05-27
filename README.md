@@ -64,6 +64,9 @@ https://github.com/niuhuan/notebook/
           [在线类型](开发/聊天机器人/QQ/MiraiGo/在线类型.md)
     - Telegram
       - [Telethon](开发/聊天机器人/Telegram/Telethon.md)
+  - 物联网
+    - [用CLion开发ESP32](开发/物联网/用CLion开发ESP32.md)
+    - [用Rust开发ESP32](开发/物联网/用Rust开发ESP32.md)
 - 运维
   - [Debian历史版本](运维/Debian/历史版本.md)
   - [MySQL绿色启动](运维/MySQL/MySQL绿色启动.md)
