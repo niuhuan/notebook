@@ -1,7 +1,15 @@
 使用Rust开发ESP32应用程序
 ======================
 
-https://github.com/esp-rs/rust-build
+本文章参考文档： https://github.com/esp-rs/rust-build
+
+## 一些部件的使用
+
+[Ft6x36](Rust-ESP32/Ft6x36.md)、
+[ILI9342C](Rust-ESP32/ILI9342C.md)、
+
+[无线热点](Rust-ESP32/WifiAccessPoint.md)、
+[HTTP服务](Rust-ESP32/HttpServer.md)、
 
 ## 下载 esp-idf
 
