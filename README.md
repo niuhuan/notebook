@@ -67,6 +67,7 @@ https://github.com/niuhuan/notebook/
   - 物联网
     - [用CLion开发ESP32](开发/物联网/用CLion开发ESP32.md)
     - [用Rust开发ESP32](开发/物联网/用Rust开发ESP32.md)
+    - [用Golang开发单片机](开发/物联网/用Golang开发单片机.md)
 - 运维
   - [Debian历史版本](运维/Debian/历史版本.md)
   - [MySQL绿色启动](运维/MySQL/MySQL绿色启动.md)
