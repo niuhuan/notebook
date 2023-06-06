@@ -1,6 +1,8 @@
 TinyGo
 ======
 
+[Core2 demo](Go-ESP32-Core2/Demo.md)
+
 ## 开发环境
 
 ### TinyGo SDK 的安装
@@ -60,34 +62,6 @@ func main() {
 		machine.SDCARD_SS_PIN,
 	)
 	err := sd.Configure()
-	if err != nil {
-		fmt.Printf("1: %s\r\n", err.Error())
-		for {
-			time.Sleep(time.Hour)
-		}
-	}
-	filesystem := fatfs.New(&sd)
-	dir, err := filesystem.Open("/")
-	if err != nil {
-		fmt.Printf("2: %s\r\n", err.Error())
-		for {
-			time.Sleep(time.Hour)
-		}
-	}
-	defer dir.Close()
-	infos, err := dir.Readdir(0)
-	_ = infos
-	if err != nil {
-		fmt.Printf("3: Could not read directory %s: %v\r\n", "/", err)
-		return
-	}
-	for _, info := range infos {
-		s := "-rwxrwxrwx"
-		if info.IsDir() {
-			s = "drwxrwxrwx"
-		}
-		fmt.Printf("4: %s %5d %s\r\n", s, info.Size(), info.Name())
-	}
 	for {
 		time.Sleep(time.Hour)
 	}
@@ -104,3 +78,10 @@ windows提示 `esptool.py: %1 is not a valid Win32 application.` 请参考下面
 
 https://jhalfmoon.com/dbc/2022/05/25/%E9%B3%A5%E3%81%AA%E3%81%8D%E9%87%8C%E3%81%AE%E3%83%9E%E3%82%A4%E3%82%B3%E3%83%B3%E5%B1%8B157-m5stack%E3%81%A7%E3%82%82go%EF%BC%81tinygo%E3%81%A7%EF%BC%96%E6%A9%9F%E7%A8%AE%E7%9B%AE/
 
+tinygo build -port=COM15 -target=m5stack-core2 ./
+
+```
+doskey esptool.py=C:\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v4.4.4\components\esptool_py\esptool\esptool.py
+```
+
+我实测并没有什么用，所以我用rust的espflash和espmonitor进行开发和测试

@@ -5,11 +5,19 @@
 
 ## 一些部件的使用
 
-[Ft6x36](Rust-ESP32/Ft6x36.md)、
-[ILI9342C](Rust-ESP32/ILI9342C.md)、
+#### std
 
-[无线热点](Rust-ESP32/WifiAccessPoint.md)、
-[HTTP服务](Rust-ESP32/HttpServer.md)、
+[Ft6x36](Rust-ESP32-std/Ft6x36.md)、
+[ILI9342C](Rust-ESP32-std/ILI9342C.md)、
+
+[无线热点](Rust-ESP32-std/WifiAccessPoint.md)、
+[HTTP服务](Rust-ESP32-std/HttpServer.md)、
+
+[TFCard](Rust-ESP32-std/TFCard.md)、
+
+
+#### no-std
+[TFCard](Rust-ESP32-no-std/TFCard.md)、
 
 ## 下载 esp-idf
 
@@ -65,7 +73,12 @@ cargo install espmonitor
 
 ## 使用模板初始化项目
 
+```shell
+# std
 cargo generate esp-rs/esp-idf-template
+# no-std
+cargo generate esp-rs/esp-template
+```
 
 ## 进入ESP-IDF控制台
 
