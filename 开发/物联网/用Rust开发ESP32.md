@@ -17,6 +17,8 @@
 
 
 #### no-std
+[PSRAM](Rust-ESP32-no-std/PSRAM.md)、
+
 [TFCard](Rust-ESP32-no-std/TFCard.md)、
 
 ## 下载 esp-idf
