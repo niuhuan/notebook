@@ -133,4 +133,8 @@ https://github.com/niuhuan/notebook/
   - [GoogleVoice自动保号](其他/GoogleVoice自动保号.md)
   - [FFMPEG](其他/FFMPEG.md)
   - [AppStore取消购买和退款](其他/AppStore取消购买和退款.md)
+  - [Telegram](其他/Telegram.md)
+    - [设置成中文](其他/Telegram.md#设置成中文)
+    - [删除账号](其他/Telegram.md#删除账号)
+    - [关闭Apple平台的敏感信息过滤](其他/Telegram.md#关闭apple平台的敏感信息过滤)
 
