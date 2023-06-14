@@ -132,4 +132,5 @@ https://github.com/niuhuan/notebook/
 - 其他
   - [GoogleVoice自动保号](其他/GoogleVoice自动保号.md)
   - [FFMPEG](其他/FFMPEG.md)
+  - [AppStore取消购买和退款](其他/AppStore取消购买和退款.md)
 
