@@ -40,7 +40,7 @@ https://github.com/niuhuan/notebook/
     - [读取图片并保存到相册](开发/Android/读取图片并保存到相册.md)
     - [读取图片并转成PNG](开发/Android/读取图片并转成PNG.md)
   - Apple
-    - [超级签证书](开发/Apple/超级签证书.md)
+    - [超级签证书](开发/Apple/超级签证书.md) 、 [在手机端获取UDID](开发/Apple/其他.md#在手机端获取UDID)
   - Gradle
     - [BuildJar](开发/Gradle/BuildJar.md) 、
       [阿里镜像](开发/Gradle/阿里镜像.md) 、
@@ -64,10 +64,11 @@ https://github.com/niuhuan/notebook/
           [在线类型](开发/聊天机器人/QQ/MiraiGo/在线类型.md)
     - Telegram
       - [Telethon](开发/聊天机器人/Telegram/Telethon.md)
-  - 物联网
-    - [用CLion开发ESP32](开发/物联网/用CLion开发ESP32.md)
-    - [用Rust开发ESP32](开发/物联网/用Rust开发ESP32.md)
-    - [用Golang开发单片机](开发/物联网/用Golang开发单片机.md)
+  - 物联网 
+    - ESP32 ： 
+      [用CLion开发ESP32](开发/物联网/用CLion开发ESP32.md) 、
+      [用Rust开发ESP32](开发/物联网/用Rust开发ESP32.md) 、
+      [用Golang开发单片机](开发/物联网/用Golang开发单片机.md) 、
 - 运维
   - [Debian历史版本](运维/Debian/历史版本.md)
   - [MySQL绿色启动](运维/MySQL/MySQL绿色启动.md)
@@ -79,8 +80,6 @@ https://github.com/niuhuan/notebook/
       [查看容器的设置](运维/Docker/常见问题.md#查看容器的设置) 、
       [清理容器的日志](运维/Docker/常见问题.md#清理容器的日志) 、
       )
-  - 阿里云函数计算
-    - [部署自定义函数(过时)](运维/阿里云/函数计算/部署自定义函数(过时).md)
   - AWS
     - [亚马逊云LINUX安装docker](运维/亚马逊云/亚马逊云LINUX安装docker.md)
   - Mongo
@@ -110,16 +109,15 @@ https://github.com/niuhuan/notebook/
     - [Win10启用SSH服务器并使用证书登录](系统/Windows/Win10启用SSH服务器并使用证书登录.md)
     - [禁用断电重启后进入恢复模式(无人值守)](系统/Windows/禁用断电重启后进入恢复模式(无人值守).md)
     - [将可执行程序注册成服务](系统/Windows/将可执行程序注册成服务.md)
-    - [WSL开启SSH](系统/Windows/WSL开启SSH.md)
-    - [WSL禁用Windows环境变量](系统/Windows/WSL禁用Windows环境变量.md)
-    - [WSL启动MYSQL](系统/Windows/WSL启动MYSQL.md)
     - [解决端口没被占用但是无法使用](系统/Windows/解决端口没被占用但是无法使用.md)
-    - [安装Chocolaty](系统/Windows/安装Chocolatey.md)
     - [Windows端口映射](系统/Windows/Windows端口映射.md)
     - [Win10家庭版开启gpedit](系统/Windows/Win10家庭版开启gpedit.md)
     - [STLC安装APPX](系统/Windows/STLC安装APPX.md)
-    - [Windows11跳过OOBE登录](系统/Windows/Windows11跳过OOBE登录.md)
     - [Windows沙盒](系统/Windows/Windows沙盒.md)
+    - [WSL开启SSH](系统/Windows/WSL开启SSH.md) 、
+      [WSL禁用Windows环境变量](系统/Windows/WSL禁用Windows环境变量.md) 、
+      [WSL启动MYSQL](系统/Windows/WSL启动MYSQL.md) 、
+    - [Windows11跳过OOBE登录](系统/Windows/Windows11跳过OOBE登录.md)
 - 游戏
   - 工具
     - [远程游玩](游戏/工具/远程游玩.md)
