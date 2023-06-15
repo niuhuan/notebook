@@ -4,26 +4,19 @@ Notebook
 https://github.com/niuhuan/notebook/
 
 - 开发
-  - java
-    - [M1_ZULU_JDK](开发/Java/m1_zulu_jdk.md)
-    - [AOP_DEMO.zip](开发/Java/aop_lock.zip)
   - Rust
     - [环境搭建](开发/Rust/env/环境搭建.md)
-    - Crates ：
-      [JSON (serde)](开发/Rust/crates/JSON.md) 、 
-      [静态变量 (lazy-static)](开发/Rust/crates/静态变量.md) 、 
-      [关于OpenSSL](开发/Rust/crates/关于OpenSSL.md) 、
-      [摘要及加密 (rsa/hex/md5)](开发/Rust/crates/摘要及加密.md) 、
-      [rsmpeg (ffmpeg)](开发/Rust/crates/rsmpeg.md)
-    - [笔记](开发/Rust/笔记.md) ( 
-      <br />
-        [编译](开发/Rust/笔记.md#编译) ： 
+    - [笔记](开发/Rust/笔记.md)
+      - [编译](开发/Rust/笔记.md#编译) ： 
           [当用户选择一些features不合理时使得编译无法通过](开发/Rust/笔记.md#当用户选择一些features不合理时使得编译无法通过) 、
-      <br />
-        [字符串](开发/Rust/笔记.md#字符串) ： 
+      - [字符串](开发/Rust/笔记.md#字符串) ： 
           [根据字符截取](开发/Rust/笔记.md#根据字符截取) 、
-      <br />
-      )
+      - Crates ：
+        - [静态变量](开发/Rust/crates/静态变量.md) ： lazy_static 、 async_once 、 once_cell
+        - [JSON (serde)](开发/Rust/crates/JSON.md) 、
+          [关于OpenSSL](开发/Rust/crates/关于OpenSSL.md) 、
+          [摘要及加密 (rsa/hex/md5)](开发/Rust/crates/摘要及加密.md) 、
+          [rsmpeg (ffmpeg)](开发/Rust/crates/rsmpeg.md)
   - Golang
     - [安装和配置](开发/Golang/安装和配置.md) 
     - [自定义http域名解析](开发/Golang/自定义http域名解析.md)
@@ -33,31 +26,39 @@ https://github.com/niuhuan/notebook/
     - Mods ： 
         [解析类型不规范的json (json-iterator)](开发/Golang/FuzzyJson/解析类型不规范的json.md) 、
         [JWT-GO](开发/Golang/mods/JWT-GO.md) 、
+  - java
+    - [M1_ZULU_JDK](开发/Java/m1_zulu_jdk.md)
+    - [AOP_DEMO.zip](开发/Java/aop_lock.zip)
   - Node.js
     - [镜像](开发/Node.js/镜像.md)
   - Flutter
-    - [flutter2在m1上不能使用pod的解决方法](开发/Flutter/flutter2在m1上不能使用pod的解决方法.md)
-    - [ObjectBox桌面端动态库](开发/Flutter/ObjectBox桌面端动态库.md)
-    - [构建linux应用](开发/Flutter/构建linux应用.md)
     - [环境搭建](开发/Flutter/环境搭建.md)
-    - [构建对应架构apk](开发/Flutter/构建对应架构apk.md)
-    - [构建未签名的ipa](开发/Flutter/构建未签名的ipa.md)
+      - 配置 ：
+        [镜像设置](开发/Flutter/环境搭建.md#环境变量) 、
+        [Mirror](开发/Flutter/环境搭建.md#Mirror) 、
+        [flutter2在m1上不能使用pod的解决方法](开发/Flutter/环境搭建.md#flutter2在m1上不能使用pod的解决方法) 、
+      - 构建 ：
+        [构建对应架构的apk](开发/Flutter/环境搭建.md#构建对应架构的apk) 、
+        [构建未签名的ipa、精简IPA体积](开发/Flutter/环境搭建.md#构建未签名的ipa) 、
+        [构建linux桌面应用](开发/Flutter/环境搭建.md#构建linux桌面应用) 、
+    - 依赖 ： 
+      [ObjectBox桌面端动态库](开发/Flutter/ObjectBox桌面端动态库.md)
   - Android
     - [AVD将证书导入ROOT](开发/Android/AVD将证书导入ROOT.md)
     - [读取图片并保存到相册](开发/Android/读取图片并保存到相册.md)
     - [读取图片并转成PNG](开发/Android/读取图片并转成PNG.md)
   - Apple
     - [超级签证书](开发/Apple/超级签证书.md) 、 [在手机端获取UDID](开发/Apple/其他.md#在手机端获取UDID)
-  - Gradle
-    - [BuildJar](开发/Gradle/BuildJar.md) 、
-      [阿里镜像](开发/Gradle/阿里镜像.md) 、
-      [使用配置文件设置代理](开发/Gradle/使用配置文件设置代理.md)
   - 任天堂游戏机开发
     - [devkitPro开发环境搭建](开发/任天堂/devkitPro开发环境搭建.md)
   - Git
     - [Git](开发/Git/Git.md)
   - BuildSystem
     - [使用meson进行编译](开发/BuildSystem/使用meson进行编译.md)
+    - Gradle
+         - [BuildJar](开发/Gradle/BuildJar.md) 、
+           [阿里镜像](开发/Gradle/阿里镜像.md) 、
+           [使用配置文件设置代理](开发/Gradle/使用配置文件设置代理.md)
   - LLVM
     - [构建LLVM](开发/LLVM/构建LLVM.md)
   - 工具
@@ -77,6 +78,8 @@ https://github.com/niuhuan/notebook/
       [用Rust开发ESP32](开发/物联网/用Rust开发ESP32.md) 、
       [用Golang开发单片机](开发/物联网/用Golang开发单片机.md) 、
 - 运维
+  - AWS
+    - [亚马逊云LINUX安装docker](运维/亚马逊云/亚马逊云LINUX安装docker.md)
   - Docker
     - [常用服务](运维/Docker/常用服务.md)
     - [常见问题](运维/Docker/常见问题.md) (
@@ -85,17 +88,16 @@ https://github.com/niuhuan/notebook/
       [查看容器的设置](运维/Docker/常见问题.md#查看容器的设置) 、
       [清理容器的日志](运维/Docker/常见问题.md#清理容器的日志) 、
       )
-  - AWS
-    - [亚马逊云LINUX安装docker](运维/亚马逊云/亚马逊云LINUX安装docker.md)
   - 数据库
     - Mongo ： [鉴权](运维/Mongo/鉴权.md)
     - MySQL ： [MySQL绿色启动](运维/MySQL/MySQL绿色启动.md)
+  - 文件系统
+    - [解决XFS系统挂载失败](运维/其他/解决XFS系统挂载失败.md)
+    - [解决卸载分区显示Busy](运维/其他/解决卸载分区显示Busy.md)
+  - 网络服务
+    - [Centos搭建OpenVPN](运维/其他/Centos搭建OpenVPN.md)
   - 工具
     - [CURL](运维/工具/CURL.md)([发送邮件](运维/工具/CURL.md#发送邮件))
-  - 其他
-    - [解决XFS系统挂载失败](运维/其他/解决XFS系统挂载失败.md)
-    - [Centos搭建OpenVPN](运维/其他/Centos搭建OpenVPN.md)
-    - [解决卸载分区显示Busy](运维/其他/解决卸载分区显示Busy.md)
 - 系统
   - MacOS
     - [制作安装U盘](系统/MacOS/制作安装U盘.md) 、
