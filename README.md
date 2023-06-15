@@ -6,7 +6,7 @@ https://github.com/niuhuan/notebook/
 - 开发
   - java
     - [M1_ZULU_JDK](开发/Java/m1_zulu_jdk.md)
-    - [AOP_DEMO.zip](开发/Java/aop_lock/)
+    - [AOP_DEMO.zip](开发/Java/aop_lock.zip)
   - Rust
     - [环境搭建](开发/Rust/env/环境搭建.md)
     - [JSON](开发/Rust/crates/JSON.md) 、 
