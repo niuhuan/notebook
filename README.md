@@ -9,23 +9,30 @@ https://github.com/niuhuan/notebook/
     - [AOP_DEMO.zip](开发/Java/aop_lock.zip)
   - Rust
     - [环境搭建](开发/Rust/env/环境搭建.md)
-    - [JSON](开发/Rust/crates/JSON.md) 、 
-      [静态变量](开发/Rust/crates/静态变量.md) 、 
+    - Crates ：
+      [JSON (serde)](开发/Rust/crates/JSON.md) 、 
+      [静态变量 (lazy-static)](开发/Rust/crates/静态变量.md) 、 
       [关于OpenSSL](开发/Rust/crates/关于OpenSSL.md) 、
-      [摘要及加密](开发/Rust/crates/摘要及加密.md) 、
-      [rsmpeg(ffmpeg)](开发/Rust/crates/rsmpeg.md)
-    - [处理字符串](开发/Rust/处理字符串.md)
-    - [笔记](开发/Rust/笔记.md) (
-        [当用户选择一些features不合理时使得编译无法通过](开发/Rust/笔记.md#当用户选择一些features不合理时使得编译无法通过) 、
+      [摘要及加密 (rsa/hex/md5)](开发/Rust/crates/摘要及加密.md) 、
+      [rsmpeg (ffmpeg)](开发/Rust/crates/rsmpeg.md)
+    - [笔记](开发/Rust/笔记.md) ( 
+      <br />
+        [编译](开发/Rust/笔记.md#编译) ： 
+          [当用户选择一些features不合理时使得编译无法通过](开发/Rust/笔记.md#当用户选择一些features不合理时使得编译无法通过) 、
+      <br />
+        [字符串](开发/Rust/笔记.md#字符串) ： 
+          [根据字符截取](开发/Rust/笔记.md#根据字符截取) 、
+      <br />
       )
   - Golang
     - [安装和配置](开发/Golang/安装和配置.md) 
-    - [使用CSharp调用Go](开发/Golang/使用CSharp调用Go.md)
     - [自定义http域名解析](开发/Golang/自定义http域名解析.md)
-    - [解析类型不规范的json](开发/Golang/FuzzyJson/解析类型不规范的json.md)
     - [处理字符串](开发/Golang/处理字符串.md)
-    - Mods
-      - [JWT-GO](开发/Golang/mods/JWT-GO.md) 、
+    - FFI ： 
+        [使用CSharp调用Go](开发/Golang/使用CSharp调用Go.md)
+    - Mods ： 
+        [解析类型不规范的json (json-iterator)](开发/Golang/FuzzyJson/解析类型不规范的json.md) 、
+        [JWT-GO](开发/Golang/mods/JWT-GO.md) 、
   - Node.js
     - [镜像](开发/Node.js/镜像.md)
   - Flutter
@@ -70,8 +77,6 @@ https://github.com/niuhuan/notebook/
       [用Rust开发ESP32](开发/物联网/用Rust开发ESP32.md) 、
       [用Golang开发单片机](开发/物联网/用Golang开发单片机.md) 、
 - 运维
-  - [Debian历史版本](运维/Debian/历史版本.md)
-  - [MySQL绿色启动](运维/MySQL/MySQL绿色启动.md)
   - Docker
     - [常用服务](运维/Docker/常用服务.md)
     - [常见问题](运维/Docker/常见问题.md) (
@@ -82,8 +87,9 @@ https://github.com/niuhuan/notebook/
       )
   - AWS
     - [亚马逊云LINUX安装docker](运维/亚马逊云/亚马逊云LINUX安装docker.md)
-  - Mongo
-    - [鉴权](运维/Mongo/鉴权.md)
+  - 数据库
+    - Mongo ： [鉴权](运维/Mongo/鉴权.md)
+    - MySQL ： [MySQL绿色启动](运维/MySQL/MySQL绿色启动.md)
   - 工具
     - [CURL](运维/工具/CURL.md)([发送邮件](运维/工具/CURL.md#发送邮件))
   - 其他
@@ -106,18 +112,25 @@ https://github.com/niuhuan/notebook/
   - QEMU
     - [基本操作](系统/Qemu/基本操作.md) 、 [M1上运行linux虚拟机](系统/Qemu/M1上运行linux虚拟机.md)
   - Windows
-    - [Win10启用SSH服务器并使用证书登录](系统/Windows/Win10启用SSH服务器并使用证书登录.md)
-    - [禁用断电重启后进入恢复模式(无人值守)](系统/Windows/禁用断电重启后进入恢复模式(无人值守).md)
-    - [将可执行程序注册成服务](系统/Windows/将可执行程序注册成服务.md)
-    - [解决端口没被占用但是无法使用](系统/Windows/解决端口没被占用但是无法使用.md)
-    - [Windows端口映射](系统/Windows/Windows端口映射.md)
-    - [Win10家庭版开启gpedit](系统/Windows/Win10家庭版开启gpedit.md)
-    - [STLC安装APPX](系统/Windows/STLC安装APPX.md)
-    - [Windows沙盒](系统/Windows/Windows沙盒.md)
-    - [WSL开启SSH](系统/Windows/WSL开启SSH.md) 、
-      [WSL禁用Windows环境变量](系统/Windows/WSL禁用Windows环境变量.md) 、
-      [WSL启动MYSQL](系统/Windows/WSL启动MYSQL.md) 、
-    - [Windows11跳过OOBE登录](系统/Windows/Windows11跳过OOBE登录.md)
+    - 远程或无人值守 ： 
+        [禁用断电重启后进入恢复模式](系统/Windows/禁用断电重启后进入恢复模式.md) 、
+        [Win10启用SSH服务器并使用证书登录](系统/Windows/Win10启用SSH服务器并使用证书登录.md) 、
+        [将可执行程序注册成服务](系统/Windows/将可执行程序注册成服务.md) 、
+        [通过命令进行端口转发](系统/Windows/通过命令进行端口转发.md) 、
+    - 高级功能 ：
+        [Windows沙盒](系统/Windows/Windows沙盒.md)
+    - WSL ： 
+        [WSL开启SSH](系统/Windows/WSL开启SSH.md) 、
+        [WSL禁用Windows环境变量](系统/Windows/WSL禁用Windows环境变量.md) 、
+        [WSL启动MYSQL](系统/Windows/WSL启动MYSQL.md) 、
+    - Windows设置 ： 
+        [Windows11跳过OOBE登录](系统/Windows/Windows11跳过OOBE登录.md) 、
+        [Win10家庭版开启gpedit](系统/Windows/Win10家庭版开启gpedit.md) 、
+        [STLC安装APPX](系统/Windows/STLC安装APPX.md) 、
+    - 其他 ：
+        [解决端口没被占用但是无法使用](系统/Windows/解决端口没被占用但是无法使用.md)
+  - Linux
+    - [Debian历史版本](系统/Debian/历史版本.md)
 - 游戏
   - 工具
     - [远程游玩](游戏/工具/远程游玩.md)
