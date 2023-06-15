@@ -11,12 +11,12 @@ https://github.com/niuhuan/notebook/
           [当用户选择一些features不合理时使得编译无法通过](开发/Rust/笔记.md#当用户选择一些features不合理时使得编译无法通过) 、
       - [字符串](开发/Rust/笔记.md#字符串) ： 
           [根据字符截取](开发/Rust/笔记.md#根据字符截取) 、
-      - Crates ：
-        - [静态变量](开发/Rust/crates/静态变量.md) ： lazy_static 、 async_once 、 once_cell
-        - [JSON (serde)](开发/Rust/crates/JSON.md) 、
-          [关于OpenSSL](开发/Rust/crates/关于OpenSSL.md) 、
-          [摘要及加密 (rsa/hex/md5)](开发/Rust/crates/摘要及加密.md) 、
-          [rsmpeg (ffmpeg)](开发/Rust/crates/rsmpeg.md)
+    - Crates ：
+      - [静态变量](开发/Rust/crates/静态变量.md) ： lazy_static 、 async_once 、 once_cell
+      - [JSON (serde)](开发/Rust/crates/JSON.md) 、
+        [关于OpenSSL](开发/Rust/crates/关于OpenSSL.md) 、
+        [摘要及加密 (rsa/hex/md5)](开发/Rust/crates/摘要及加密.md) 、
+        [rsmpeg (ffmpeg)](开发/Rust/crates/rsmpeg.md)
   - Golang
     - [安装和配置](开发/Golang/安装和配置.md) 
     - [自定义http域名解析](开发/Golang/自定义http域名解析.md)
