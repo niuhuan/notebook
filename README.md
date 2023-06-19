@@ -131,9 +131,12 @@ https://github.com/niuhuan/notebook/
           [WSL开启SSH](系统/Windows/WSL开启SSH.md) 、
           [WSL禁用Windows环境变量](系统/Windows/WSL禁用Windows环境变量.md) 、
           [WSL启动MYSQL](系统/Windows/WSL启动MYSQL.md) 、
+        - WSA ：
+          [Win11安装WSA](系统/Windows/Win11安装WSA.md) 、
         - Windows设置 ：
           [Windows11跳过OOBE登录](系统/Windows/Windows11跳过OOBE登录.md) 、
           [Win10家庭版开启gpedit](系统/Windows/Win10家庭版开启gpedit.md) 、
+          [Win10/11家庭版开启Hyper-V](系统/Windows/Win10_11家庭版开启hyper_v.md) 、
           [STLC安装APPX](系统/Windows/STLC安装APPX.md) 、
         - 其他 ：
           [解决端口没被占用但是无法使用](系统/Windows/解决端口没被占用但是无法使用.md)
