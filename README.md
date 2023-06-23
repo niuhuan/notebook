@@ -60,12 +60,9 @@ https://github.com/niuhuan/notebook/
         - [devkitPro开发环境搭建](开发/任天堂/devkitPro开发环境搭建.md)
     - Git
         - [Git](开发/Git/Git.md)
-    - BuildSystem
-        - [使用meson进行编译](开发/BuildSystem/使用meson进行编译.md)
-        - Gradle ： 
-          [BuildJar](开发/Gradle/BuildJar.md) 、
-          [阿里镜像](开发/Gradle/阿里镜像.md) 、
-          [使用配置文件设置代理](开发/Gradle/使用配置文件设置代理.md)
+    - BuildSystem ：
+      [Meson](开发/BuildSystem/Meson.md) 、
+      [Gradle](开发/BuildSystem/Gradle.md) 、
     - LLVM
         - [构建LLVM](开发/LLVM/构建LLVM.md)
     - 工具
