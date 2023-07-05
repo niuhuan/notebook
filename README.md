@@ -34,7 +34,8 @@ https://github.com/niuhuan/notebook/
         - [M1_ZULU_JDK](开发/Java/m1_zulu_jdk.md)
         - [AOP_DEMO.zip](开发/Java/aop_lock.zip)
     - Node.js
-        - [镜像](开发/Node.js/镜像.md)
+        - [Yarn](开发/Node.js/Yarn.md)、
+          [镜像](开发/Node.js/镜像.md)、
     - Flutter
         - [环境搭建](开发/Flutter/环境搭建.md)
           <br />
