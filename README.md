@@ -66,7 +66,8 @@ https://github.com/niuhuan/notebook/
     - LLVM
         - [构建LLVM](开发/LLVM/构建LLVM.md)
     - 工具
-        - [网站工具](开发/工具/网站工具.md)
+        - [使用Web在远端使用VSCode](开发/工具/CodeServer.md) 、
+          [网站工具](开发/工具/网站工具.md) 、
     - 正则表达式
         - [ipv4](开发/正则/ipv4.md) 、
           [ipv6](开发/正则/ipv6.md)
