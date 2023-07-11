@@ -215,3 +215,47 @@ firewall-cmd --add-masquerade --permanent
 ps:
 - firewall-cmd --query-masquerade
 - http://blog.chinaunix.net/uid-20329764-id-5859459.html
+
+### 重新安装
+
+#### 服务器
+
+删除了/etc/openvpn下的所有文件，卸载又安装了openvpn，复制了easyrsa
+
+```shell
+./easy-rsa/easyrsa init-pki
+./easy-rsa/easyrsa build-ca
+./easy-rsa/easyrsa build-server-full server # 这里提示输入密码了
+```
+
+同样配置了一个配置文件，但是启动的时候需要输入.key的密码
+
+在server.conf加入下面一行
+
+```text
+askpass /etc/openvpn/key.pass
+```
+
+新建一个文件
+
+/etc/openvpn/key.pass
+
+```txt
+password
+```
+
+`systemctl start openvpn-server@server` 不再需要密码
+
+#### 客户端
+
+```shell
+./easy-rsa/easyrsa build-client-full client
+```
+
+#### 附加说明
+
+```shell
+cat pki/ca.crt
+cat pki/private/client.key
+cat pki/issued/client.crt
+```
