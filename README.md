@@ -120,6 +120,8 @@ https://github.com/niuhuan/notebook/
     - QEMU
         - [基本操作](系统/Qemu/基本操作.md) 、 [M1上运行linux虚拟机](系统/Qemu/M1上运行linux虚拟机.md)
     - Windows
+        - 应用 ：
+          [OhMyPosh](系统/Windows/OhMyPosh.md)
         - 远程或无人值守 ：
           [禁用断电重启后进入恢复模式](系统/Windows/禁用断电重启后进入恢复模式.md) 、
           [Win10启用SSH服务器并使用证书登录](系统/Windows/Win10启用SSH服务器并使用证书登录.md) 、
