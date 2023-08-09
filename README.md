@@ -156,6 +156,8 @@ https://github.com/niuhuan/notebook/
           [慕风蘑菇分布地图](游戏/原神/慕风蘑菇分布地图.md) 、
     - 平台
         - [Steam](游戏/平台/Steam.md) :  [自定义Cover和Banner下载](游戏/平台/Steam.md#自定义cover和banner下载)
+    - 设备
+        - [SteamDeck](游戏/设备/SteamDeck.md)
 - 其他
     - [GoogleVoice自动保号](其他/GoogleVoice自动保号.md)
     - [FFMPEG](其他/FFMPEG.md)
