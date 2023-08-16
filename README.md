@@ -147,7 +147,7 @@ https://github.com/niuhuan/notebook/
 - 游戏
     - 工具
         - [远程游玩](游戏/工具/远程游玩.md)
-    - 宝可梦
+    - 宝可梦                    azx
         - [图鉴与翻译](游戏/宝可梦/图鉴与翻译.md)
     - 怪物猎人
         - [NS平台XX/GU启用60帧](游戏/怪物猎人/NS平台XX-GU启用60帧.md)
@@ -166,4 +166,5 @@ https://github.com/niuhuan/notebook/
         - [设置成中文](其他/Telegram.md#设置成中文) 、
           [删除账号](其他/Telegram.md#删除账号) 、
           [关闭Apple平台的敏感信息过滤](其他/Telegram.md#关闭apple平台的敏感信息过滤) 、
+    - [V2rayU](其他/V2rayU.md)
 
