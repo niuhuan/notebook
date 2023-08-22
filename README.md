@@ -25,6 +25,7 @@ https://github.com/niuhuan/notebook/
         - [安装和配置](开发/Golang/安装和配置.md)
         - [自定义http域名解析](开发/Golang/自定义http域名解析.md)
         - [处理字符串](开发/Golang/处理字符串.md)
+        - [EmbedFS](开发/Golang/EmbedFS.md)
         - FFI ：
           [使用CSharp调用Go](开发/Golang/使用CSharp调用Go.md)
         - Mods ：
