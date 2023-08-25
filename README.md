@@ -65,6 +65,7 @@ https://github.com/niuhuan/notebook/
     - BuildSystem ：
       [Meson](开发/BuildSystem/Meson.md) 、
       [Gradle](开发/BuildSystem/Gradle.md) 、
+      [CMake](开发/BuildSystem/CMake.md) 、
     - LLVM
         - [构建LLVM](开发/LLVM/构建LLVM.md)
     - 工具
