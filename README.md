@@ -56,7 +56,7 @@ https://github.com/niuhuan/notebook/
         - [读取图片并保存到相册](开发/Android/读取图片并保存到相册.md)
         - [读取图片并转成PNG](开发/Android/读取图片并转成PNG.md)
     - Apple
-        - [超级签证书](开发/Apple/超级签证书.md) 、 [在手机端获取UDID](开发/Apple/其他.md#在手机端获取UDID)
+        - [超级签证书](开发/Apple/超级签证书.md) 、 [在手机端获取UDID](开发/Apple/其他.md#在手机端获取UDID) 、 [查看IPA签名有效期](开发/Apple/其他.md#查看IPA签名有效期)
         - [Pods](开发/Apple/Pods.md) ： [Pods访问超时](开发/Apple/Pods.md#访问超时)
     - 任天堂游戏机开发
         - [devkitPro开发环境搭建](开发/任天堂/devkitPro开发环境搭建.md)
@@ -143,8 +143,8 @@ https://github.com/niuhuan/notebook/
           [Win10/11家庭版开启Hyper-V](系统/Windows/Win10_11家庭版开启hyper_v.md) 、
           [STLC安装APPX](系统/Windows/STLC安装APPX.md) 、
         - 其他 ：
-          [解决端口没被占用但是无法使用](系统/Windows/解决端口没被占用但是无法使用.md)
-          [BitLocker](系统/Windows/BitLocker.md)
+          [解决端口没被占用但是无法使用](系统/Windows/解决端口没被占用但是无法使用.md) 、
+          [BitLocker](系统/Windows/BitLocker.md) 、
     - Linux
         - [Debian历史版本](系统/Debian/历史版本.md)
 - 游戏
