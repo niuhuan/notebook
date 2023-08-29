@@ -96,6 +96,8 @@ https://github.com/niuhuan/notebook/
           [查看容器的设置](运维/Docker/常见问题.md#查看容器的设置) 、
           [清理容器的日志](运维/Docker/常见问题.md#清理容器的日志) 、
           )
+      - [安装](运维/Docker/安装.md)
+        [OracleLinux](运维/Docker/安装.md#OracleLinux) 、
     - 数据库
         - Mongo ： [鉴权](运维/Mongo/鉴权.md)
         - MySQL ： [MySQL绿色启动](运维/MySQL/MySQL绿色启动.md)
