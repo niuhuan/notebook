@@ -117,6 +117,7 @@ https://github.com/niuhuan/notebook/
           [开放DockerTCP端口](系统/MacOS/开放DockerTCP端口.md)
         - [将命令行注册为系统服务](系统/MacOS/将命令行注册为系统服务.md) 、
           [WindowsTerminalSSH乱码解决](系统/MacOS/WindowsTerminalSSH乱码解决.md)
+        - [软件](系统/MacOS/软件.md) ：
     - Android
         - [修复Wifi显示X号](系统/Android/修复Wifi显示X号.md)
     - SBC
