@@ -39,3 +39,12 @@ code-server --cert xxx.pem --cert-key xxx.key --bind-addr 0.0.0.0:8080
 ## 安装GithubCopilot
 
 https://www.youtube.com/watch?v=w_-zFFM0N-g
+
+
+### 下载
+
+https://marketplace.visualstudio.com/items?itemName=GitHub.copilot
+
+Version History -> Download
+
+传输到服务器后使用浏览器进行 `install from vsix`
