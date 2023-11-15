@@ -73,6 +73,7 @@ https://github.com/niuhuan/notebook/
     - 工具
         - [使用Web在远端使用VSCode](开发/工具/CodeServer.md) 、
           [网站工具](开发/工具/网站工具.md) 、
+        - [制作ICO](开发/工具/制作ICO.md) 、
     - 正则表达式
         - [ipv4](开发/正则/ipv4.md) 、
           [ipv6](开发/正则/ipv6.md)
