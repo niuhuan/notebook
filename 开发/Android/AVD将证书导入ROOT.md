@@ -30,4 +30,8 @@ https://medium.com/hackers-secrets/adding-a-certificate-to-android-system-trust-
 
 https://stackoverflow.com/questions/42647209/how-to-make-system-partition-in-avd-in-emulator-writable
 
+虚拟机无法使用root解决
+
+https://blog.csdn.net/nzyalj/article/details/78839701
+
 
