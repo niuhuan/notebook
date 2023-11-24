@@ -20,6 +20,7 @@ su
 cp /sdcard/HttpCanary/cert/87bc3517.0 /system/etc/security/cacerts/
 chmod 644 /system/etc/security/cacerts/87bc3517.0
 chown root:root /system/etc/security/cacerts/87bc3517.0
+reboot
 ```
 
 之后就可以抓包了
