@@ -48,3 +48,28 @@ https://marketplace.visualstudio.com/items?itemName=GitHub.copilot
 Version History -> Download
 
 传输到服务器后使用浏览器进行 `install from vsix`
+
+## 其他
+
+自签名证书
+
+```shell
+cd ~/.config/code-server
+```
+
+```shell
+openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365 -nodes
+```
+
+修改 127.0.0.1 为 0.0.0.0
+配置证书：删除 `cert: false` , 并增加 `cert` `cert-key`
+
+注意：内容中的 /home/niuhuan 应该换成用户自己home路径， 或者想存放证书的路径
+
+```yaml
+bind-addr: 0.0.0.0:8080
+auth: password
+password: password_content
+cert: /home/niuhuan/.config/code-server/cert.pem
+cert-key: /home/niuhuan/.config/code-server/key.pem
+```
