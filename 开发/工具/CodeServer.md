@@ -51,7 +51,11 @@ Version History -> Download
 
 ## 其他
 
-自签名证书
+### 获取安装脚本
+
+`curl -fsSL https://code-server.dev/install.sh | sh -s -- --dry-run`
+
+### 自签名证书
 
 ```shell
 cd ~/.config/code-server
