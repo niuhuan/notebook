@@ -52,7 +52,14 @@ Host github.com
 ```
 
 linux
-安装connect-proxy之后配置文件和windows保持一致
+
+ubuntu 安装connect-proxy之后配置文件和windows保持一致
 ```
 sudo apt install connect-proxy
+```
+
+
+archlinux 安装openbsd-netcat之后配置文件和windows保持一致
+```
+sudo pacman -S openbsd-netcat
 ```
