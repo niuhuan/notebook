@@ -166,16 +166,13 @@ https://github.com/niuhuan/notebook/
         - [图鉴与翻译](游戏/宝可梦/图鉴与翻译.md)
     - 怪物猎人
         - [NS平台XX/GU启用60帧](游戏/怪物猎人/NS平台XX-GU启用60帧.md)
-    - 原神
-        - [丘丘萨满分布地图](游戏/原神/丘丘萨满分布地图.md) 、
-          [慕风蘑菇分布地图](游戏/原神/慕风蘑菇分布地图.md) 、
+    - [原神](游戏/原神.md)
     - 平台
         - [Steam](游戏/平台/Steam.md) :  [自定义Cover和Banner下载](游戏/平台/Steam.md#自定义cover和banner下载)
     - 设备
         - [SteamDeck](游戏/设备/SteamDeck.md)
 - 其他
     - [GoogleVoice自动保号](其他/GoogleVoice自动保号.md)
-    - [FFMPEG](其他/FFMPEG.md)
     - [AppStore取消购买和退款](其他/AppStore取消购买和退款.md)
     - [Telegram](其他/Telegram.md)<br />
         - [设置成中文](其他/Telegram.md#设置成中文) 、
