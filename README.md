@@ -87,7 +87,7 @@ https://github.com/niuhuan/notebook/
         - ESP32 ：
           [用CLion开发ESP32](开发/物联网/用CLion开发ESP32.md) 、
           [用Rust开发ESP32](开发/物联网/用Rust开发ESP32.md) 、
-          [用Golang开发单片机](开发/物联网/用Golang开发单片机.md) 、
+          [用Golang开发单片机](开发/物联网/用Golang开发单片机.md) 、 
 - 运维
     - AWS
         - [亚马逊云LINUX安装docker](运维/亚马逊云/亚马逊云LINUX安装docker.md)
@@ -101,23 +101,21 @@ https://github.com/niuhuan/notebook/
           [查看容器的设置](运维/Docker/常见问题.md#查看容器的设置) 、
           [清理容器的日志](运维/Docker/常见问题.md#清理容器的日志) 、
           )
-        - [新版Debian或Ubuntu执行`pip Install`](运维/Docker/新版Debian或Ubuntu执行pip_install.md)
+        - [新版Debian或Ubuntu执行`pip Install`](运维/Docker/新版Debian或Ubuntu执行pip_install.md)  
       - [安装](运维/Docker/安装.md)
-        [OracleLinux](运维/Docker/安装.md#OracleLinux) 、
-    - 数据库
-        - Mongo ： [鉴权](运维/Mongo/鉴权.md)
-        - MySQL ： [MySQL绿色启动](运维/MySQL/MySQL绿色启动.md)
-    - 文件系统
+        [OracleLinux](运维/Docker/安装.md#Oracle-linux) 、
+    - 服务
+        - OpenVPN : [Centos搭建OpenVPN](运维/服务/OpenVPN/Centos搭建OpenVPN.md)
+        - Mongo : [鉴权](运维/服务/Mongo/鉴权.md)
+        - MySQL : [MySQL绿色启动](运维/服务/MySQL/MySQL绿色启动.md)
+        - Nginx : [编译Nginx](运维/服务/Nginx/编译Nginx.md)
+        - Matrix : [Matrix服务](运维/服务/Matrix/Matrix服务.md)
+    - 工具和其他
+        - [CURL](运维/工具和其他/CURL.md)([发送邮件](运维/工具和其他/CURL.md#发送邮件))
+        - [systemctl](运维/工具和其他/systemctl.md)
+    - 文件系统 
         - [解决XFS系统挂载失败](运维/其他/解决XFS系统挂载失败.md)
         - [解决卸载分区显示Busy](运维/其他/解决卸载分区显示Busy.md)
-    - 网络服务
-        - [Centos搭建OpenVPN](运维/其他/Centos搭建OpenVPN.md)
-    - 工具
-        - [CURL](运维/工具/CURL.md)([发送邮件](运维/工具/CURL.md#发送邮件))
-        - [Matrix服务](运维/工具/Matrix服务.md)
-    - 其他
-        - [systemctl](运维/其他/systemctl.md)
-        - [编译nginx](运维/Nginx/编译nginx.md)
      
 - 系统
     - MacOS
