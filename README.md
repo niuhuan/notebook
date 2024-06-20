@@ -114,8 +114,8 @@ https://github.com/niuhuan/notebook/
         - [CURL](运维/工具和其他/CURL.md)([发送邮件](运维/工具和其他/CURL.md#发送邮件))
         - [systemctl](运维/工具和其他/systemctl.md)
     - 文件系统 
-        - [解决XFS系统挂载失败](运维/其他/解决XFS系统挂载失败.md)
-        - [解决卸载分区显示Busy](运维/其他/解决卸载分区显示Busy.md)
+        - [解决XFS系统挂载失败](运维/文件系统/解决XFS系统挂载失败.md)
+        - [解决卸载分区显示Busy](运维/文件系统/解决卸载分区显示Busy.md)
      
 - 系统
     - MacOS
