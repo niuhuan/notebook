@@ -85,7 +85,7 @@ https://github.com/niuhuan/notebook/
             - [Telethon](开发/聊天机器人/Telegram/Telethon.md)
     - 物联网
         - ESP32 ：
-          [用CLion开发ESP32](开发/物联网/用CLion开发ESP32.md) 、
+          [ESP-DEV](开发/物联网/ESP-DEV.md) 、
           [用Rust开发ESP32](开发/物联网/用Rust开发ESP32.md) 、
           [用Golang开发单片机](开发/物联网/用Golang开发单片机.md) 、 
 - 运维
