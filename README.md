@@ -78,16 +78,13 @@ https://github.com/niuhuan/notebook/
         - [ipv4](开发/正则/ipv4.md) 、
           [ipv6](开发/正则/ipv6.md)
     - 聊天机器人
-        - QQ
-            - MiraiGO
-              [在线类型](开发/聊天机器人/QQ/MiraiGo/在线类型.md)
         - Telegram
             - [Telethon](开发/聊天机器人/Telegram/Telethon.md)
     - 物联网
-        - ESP32 ：
-          [ESP-DEV](开发/物联网/ESP-DEV.md) 、
-          [用Rust开发ESP32](开发/物联网/用Rust开发ESP32.md) 、
-          [用Golang开发单片机](开发/物联网/用Golang开发单片机.md) 、 
+        - [Micropython](开发/物联网/Micropython.md) 、
+        - [ESP-DEV](开发/物联网/ESP-DEV.md) 、
+        - [用Rust开发ESP32](开发/物联网/用Rust开发ESP32.md) 、
+        - [用Golang开发单片机](开发/物联网/用Golang开发单片机.md) 、 
 - 运维
     - AWS
         - [亚马逊云LINUX安装docker](运维/亚马逊云/亚马逊云LINUX安装docker.md)
