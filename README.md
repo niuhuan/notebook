@@ -78,16 +78,13 @@ https://github.com/niuhuan/notebook/
         - [ipv4](开发/正则/ipv4.md) 、
           [ipv6](开发/正则/ipv6.md)
     - 聊天机器人
-        - QQ
-            - MiraiGO
-              [在线类型](开发/聊天机器人/QQ/MiraiGo/在线类型.md)
         - Telegram
             - [Telethon](开发/聊天机器人/Telegram/Telethon.md)
     - 物联网
-        - ESP32 ：
-          [用CLion开发ESP32](开发/物联网/用CLion开发ESP32.md) 、
-          [用Rust开发ESP32](开发/物联网/用Rust开发ESP32.md) 、
-          [用Golang开发单片机](开发/物联网/用Golang开发单片机.md) 、 
+        - [Micropython](开发/物联网/Micropython.md) 、
+        - [ESP-DEV](开发/物联网/ESP-DEV.md) 、
+        - [用Rust开发ESP32](开发/物联网/用Rust开发ESP32.md) 、
+        - [用Golang开发单片机](开发/物联网/用Golang开发单片机.md) 、 
 - 运维
     - AWS
         - [亚马逊云LINUX安装docker](运维/亚马逊云/亚马逊云LINUX安装docker.md)
@@ -154,6 +151,7 @@ https://github.com/niuhuan/notebook/
           [Win10家庭版开启gpedit](系统/Windows/Win10家庭版开启gpedit.md) 、
           [Win10/11家庭版开启Hyper-V](系统/Windows/Win10_11家庭版开启hyper_v.md) 、
           [STLC安装APPX](系统/Windows/STLC安装APPX.md) 、
+          [开机启动指定应用](系统/Windows/开机启动指定应用.md)
         - 其他 ：
           [解决端口没被占用但是无法使用](系统/Windows/解决端口没被占用但是无法使用.md) 、
           [BitLocker](系统/Windows/BitLocker.md) 、
