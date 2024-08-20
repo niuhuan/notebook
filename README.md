@@ -20,7 +20,8 @@ https://github.com/niuhuan/notebook/
           [JSON (serde)](开发/Rust/crates/JSON.md) 、
           [关于OpenSSL](开发/Rust/crates/关于OpenSSL.md) 、
           [摘要及加密 (rsa/hex/md5)](开发/Rust/crates/摘要及加密.md) 、
-          [rsmpeg (ffmpeg)](开发/Rust/crates/rsmpeg.md)
+          [rsmpeg (ffmpeg)](开发/Rust/crates/rsmpeg.md) 、
+          [safer_ffi/python](开发/Rust/safer_ffi/python.md) 、 
     - Golang
         - [安装和配置](开发/Golang/安装和配置.md)
         - [自定义http域名解析](开发/Golang/自定义http域名解析.md)
