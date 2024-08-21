@@ -60,7 +60,7 @@ https://github.com/niuhuan/notebook/
         - [读取图片并转成PNG](开发/Android/读取图片并转成PNG.md)
     - Apple
         - [超级签证书](开发/Apple/超级签证书.md) 、 [在手机端获取UDID](开发/Apple/其他.md#在手机端获取UDID) 、 [查看IPA签名有效期](开发/Apple/其他.md#查看IPA签名有效期)
-        - [Pods](开发/Apple/Pods.md) ： [Pods访问超时](开发/Apple/Pods.md#访问超时)
+        - [Pods](开发/Apple/Pods.md) ： [Pods访问超时](开发/Apple/Pods.md#访问超时) 、[iOS构建跳过签名](开发/Apple/iOS构建跳过签名.md)
     - 任天堂游戏机开发
         - [devkitPro开发环境搭建](开发/任天堂/devkitPro开发环境搭建.md)
     - Git
