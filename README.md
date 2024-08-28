@@ -52,6 +52,7 @@ https://github.com/niuhuan/notebook/
           [构建对应架构的apk](开发/Flutter/环境搭建.md#构建对应架构的apk) 、
           [构建未签名的ipa、精简IPA体积](开发/Flutter/环境搭建.md#构建未签名的ipa) 、
           [构建linux桌面应用](开发/Flutter/环境搭建.md#构建linux桌面应用) 、
+        - [常见问题](开发/Flutter/常见问题.md) 、
         - 依赖 ：
           [ObjectBox桌面端动态库](开发/Flutter/ObjectBox桌面端动态库.md)
     - Android
