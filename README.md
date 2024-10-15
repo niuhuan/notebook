@@ -153,7 +153,8 @@ https://github.com/niuhuan/notebook/
           [Win10家庭版开启gpedit](系统/Windows/Win10家庭版开启gpedit.md) 、
           [Win10/11家庭版开启Hyper-V](系统/Windows/Win10_11家庭版开启hyper_v.md) 、
           [STLC安装APPX](系统/Windows/STLC安装APPX.md) 、
-          [开机启动指定应用](系统/Windows/开机启动指定应用.md)
+          [开机启动指定应用](系统/Windows/开机启动指定应用.md) 、
+          [多用户远程连接](系统/Windows/多用户远程连接.md) 、
         - 其他 ：
           [解决端口没被占用但是无法使用](系统/Windows/解决端口没被占用但是无法使用.md) 、
           [BitLocker](系统/Windows/BitLocker.md) 、
