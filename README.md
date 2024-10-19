@@ -160,6 +160,7 @@ https://github.com/niuhuan/notebook/
           [BitLocker](系统/Windows/BitLocker.md) 、
     - Linux
         - [Debian历史版本](系统/Debian/历史版本.md)
+        - [UbuntuServer安装时未配置网络](系统/Ubuntu/UbuntuServer安装时未配置网络.md)
 - 游戏
     - 工具
         - [远程游玩](游戏/工具/远程游玩.md)
