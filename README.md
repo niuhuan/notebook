@@ -104,6 +104,7 @@ https://github.com/niuhuan/notebook/
           [查看容器的设置](运维/Docker/常见问题.md#查看容器的设置) 、
           [清理容器的日志](运维/Docker/常见问题.md#清理容器的日志) 、
           )
+        - [阿里云镜像仓库使用](运维/Docker/阿里云镜像仓库使用.md)
         - [新版Debian或Ubuntu执行`pip Install`](运维/Docker/新版Debian或Ubuntu执行pip_install.md)  
       - [安装](运维/Docker/安装.md)
         [OracleLinux](运维/Docker/安装.md#Oracle-linux) 、
