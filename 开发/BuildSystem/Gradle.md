@@ -56,3 +56,11 @@ build.gradle
 implementation project(':mapdb')
 ```
 
+## 代理
+
+PS: 试过各种方法，只有这个好用
+
+```
+./gradlew -Dhttp.proxyHost=127.0.0.1 -Dhttp.proxyPort=1087 -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=1087 installRelease
+```
+
