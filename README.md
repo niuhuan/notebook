@@ -113,7 +113,7 @@ https://github.com/niuhuan/notebook/
         - Mongo : [鉴权](运维/服务/Mongo/鉴权.md)
         - MySQL : [MySQL绿色启动](运维/服务/MySQL/MySQL绿色启动.md)
         - Nginx : [编译Nginx](运维/服务/Nginx/编译Nginx.md)
-        - Matrix : [Matrix服务](运维/服务/Matrix/Matrix服务.md)
+        - Matrix : [Matrix服务](运维/服务/Matrix/Matrix服务.md) 、 [MatrixDockerCompose（带推送）](运维/服务/Matrix/MatrixDockerCompose.md)
     - 工具和其他
         - [CURL](运维/工具和其他/CURL.md)([发送邮件](运维/工具和其他/CURL.md#发送邮件))
         - [systemctl](运维/工具和其他/systemctl.md)
