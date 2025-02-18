@@ -63,3 +63,8 @@ archlinux 安装openbsd-netcat之后配置文件和windows保持一致
 ```
 sudo pacman -S openbsd-netcat
 ```
+
+在linux(dev container)中保存账号密码
+```shell
+git config --global credential.helper store
+```
