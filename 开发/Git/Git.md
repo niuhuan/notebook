@@ -69,3 +69,8 @@ sudo pacman -S openbsd-netcat
 git config --global credential.helper store
 ```
 密码会明文保存在 ~/.git-credentials
+
+在mac自动保存密码
+```shell
+git config --global credential.helper osxkeychain
+```
