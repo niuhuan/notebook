@@ -70,7 +70,7 @@ git config --global credential.helper store
 ```
 密码会明文保存在 ~/.git-credentials
 
-在mac自动保存密码
+在mac自动保存密码（经过验证并不生效、且官方不推荐）
 ```shell
 git config --global credential.helper osxkeychain
 ```
