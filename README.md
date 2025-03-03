@@ -62,6 +62,7 @@ https://github.com/niuhuan/notebook/
     - Apple
         - [超级签证书](开发/Apple/超级签证书.md) 、 [在手机端获取UDID](开发/Apple/其他.md#在手机端获取UDID) 、 [查看IPA签名有效期](开发/Apple/其他.md#查看IPA签名有效期)
         - [Pods](开发/Apple/Pods.md) ： [Pods访问超时](开发/Apple/Pods.md#访问超时) 、[iOS构建跳过签名](开发/Apple/iOS构建跳过签名.md)
+        - [Swift package manager](开发/Apple/swift_package_manager)
     - 华为
       - 鸿蒙NEXT
         - [基础](开发/华为/鸿蒙NEXT/基础.md)
