@@ -111,6 +111,7 @@ https://github.com/niuhuan/notebook/
         - [新版Debian或Ubuntu执行`pip Install`](运维/Docker/新版Debian或Ubuntu执行pip_install.md)  
       - [安装](运维/Docker/安装.md)
         [OracleLinux](运维/Docker/安装.md#Oracle-linux) 、
+      - [卸载](运维/Docker/卸载.md)
     - 服务
         - OpenVPN : [Centos搭建OpenVPN](运维/服务/OpenVPN/Centos搭建OpenVPN.md)
         - Mongo : [鉴权](运维/服务/Mongo/鉴权.md)
