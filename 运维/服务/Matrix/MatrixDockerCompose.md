@@ -160,6 +160,8 @@ disable_existing_loggers: false
 
 ### Nginx配置
 
+多次测试，如果有frp反向代理, .well-known 需要放置到服务端，否则无法识别或slider-sync无法正常工作导致一些客户端无法登录 ，.开头的路径nginx无法转发
+
 ```nginx
 listen       443 ssl;
 server_name  domain.com;
@@ -255,14 +257,22 @@ sudo docker compose up -d
 
 ## 推送
 
-如果在国内的服务器则要设置代理才能有推送消息到官方客户端，否则会timeout
+#### 服务端 -> 客户端的服务端
+
+如果在国内的服务器则要设置代理才能有推送消息到官方客户端，否则会timeout.
 
 ```log
 Received response to PUT https://matrix.org/report-usage-stats/push: 200
 POST https://matrix.org/_matrix/push/v1/notify: 200
 ```
 
+如果是fluffyChat客户端似乎需要代理
+
+#### 客户端的服务端 -> 客户端
+
 苹果手机可以直接推送，（ APNS ）
 安卓安装了google服务的，如果在国内版则需要启动代理时，才可以推送，（ Firebase ）
 
-多次测试，如果有frp反向代理, .well-known 需要放置到服务端，否则无法识别或slider-sync无法正常工作导致一些客户端无法登录 ，.开头的路径nginx无法转发
+#### fuzzyChat 可以设置三方推送
+
+"noGoogleServicesWarning": "您手機上沒有安裝 Google 服務框架。這或許對於保護您的隱私而言是個好事！但為了收到 FluffyChat 的推播通知，我們建議您使用 https://microg.org 或 https://unifiedpush.org。",
