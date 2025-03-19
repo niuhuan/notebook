@@ -264,3 +264,5 @@ POST https://matrix.org/_matrix/push/v1/notify: 200
 
 苹果手机可以直接推送，（ APNS ）
 安卓安装了google服务的，如果在国内版则需要启动代理时，才可以推送，（ Firebase ）
+
+多次测试，如果有frp反向代理, .well-known 需要放置到服务端，否则无法识别或slider-sync无法正常工作导致一些客户端无法登录 ，.开头的路径nginx无法转发
