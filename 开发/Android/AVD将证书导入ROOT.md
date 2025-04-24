@@ -25,6 +25,14 @@ reboot
 
 之后就可以抓包了
 
+提示
+
+```shell
+$ANDROID_HOME/emulator/emulator @P6 -writable-system -no-snapshot-load
+$ANDROID_HOME/emulator/emulator --help
+$ANDROID_HOME/emulator/emulator -list-avds
+```
+
 参考了两篇文章
 
 https://medium.com/hackers-secrets/adding-a-certificate-to-android-system-trust-store-ae8ca3519a85
