@@ -169,6 +169,7 @@ https://github.com/niuhuan/notebook/
         - 其他 ：
           [解决端口没被占用但是无法使用](系统/Windows/解决端口没被占用但是无法使用.md) 、
           [BitLocker](系统/Windows/BitLocker.md) 、
+          [PowerShell](系统/Windows/PowerShell.md) 、
     - Linux
         - [Debian历史版本](系统/Debian/历史版本.md)
         - [UbuntuServer安装时未配置网络](系统/Ubuntu/UbuntuServer安装时未配置网络.md)
