@@ -30,3 +30,25 @@ AmbientCapabilities=CAP_NET_BIND_SERVICE
 [Install]
 WantedBy=multi-user.target
 ```
+
+```
+➜  system cat /etc/systemd/system/fubuki.service
+[Unit]
+Description=fubuki
+After=network-online.target
+
+[Service]
+Type=simple
+LimitNOFILE=65536
+KillMode=process
+KillSignal=SIGINT
+Restart=on-failure
+RestartSec=5
+ExecStart=/opt/fubuki/fubuki node daemon /opt/fubuki/node-config.json
+User=root
+Group=root
+AmbientCapabilities=CAP_NET_BIND_SERVICE
+
+[Install]
+WantedBy=multi-user.target
+```
