@@ -13,6 +13,9 @@ https://github.com/niuhuan/notebook/
           <br />
           [字符串](开发/Rust/笔记.md#字符串) ：
           [根据字符截取](开发/Rust/笔记.md#根据字符截取) 、
+          <br />
+          [GO+跨平台](开发/Rust/GO+跨平台.md)
+          <br />
         - Crates ：
           <br />
           [静态变量](开发/Rust/crates/静态变量.md) ： lazy_static 、 async_once 、 once_cell
