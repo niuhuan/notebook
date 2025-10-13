@@ -133,7 +133,8 @@ https://github.com/niuhuan/notebook/
     - MacOS
         - [制作安装U盘](系统/MacOS/制作安装U盘.md) 、
           [开启NFS服务](系统/MacOS/开启NFS服务.md) 、
-          [开放DockerTCP端口](系统/MacOS/开放DockerTCP端口.md)
+          [开放DockerTCP端口](系统/MacOS/开放DockerTCP端口.md) 、
+          [远程重启自动解锁文件保险箱](系统/MacOS/远程重启自动解锁文件保险箱.md)
         - [将命令行注册为系统服务](系统/MacOS/将命令行注册为系统服务.md) 、
           [WindowsTerminalSSH乱码解决](系统/MacOS/WindowsTerminalSSH乱码解决.md)
         - [软件](系统/MacOS/软件.md)
