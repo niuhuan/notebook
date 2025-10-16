@@ -71,6 +71,7 @@ https://github.com/niuhuan/notebook/
       - 鸿蒙NEXT
         - [基础](开发/华为/鸿蒙NEXT/基础.md)
         - [发布](开发/华为/鸿蒙NEXT/发布.md)
+        - [Golang](开发/华为/鸿蒙NEXT/Golang.md)
     - 任天堂游戏机开发
         - [devkitPro开发环境搭建](开发/任天堂/devkitPro开发环境搭建.md)
     - Git
