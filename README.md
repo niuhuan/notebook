@@ -150,6 +150,7 @@ https://github.com/niuhuan/notebook/
     - Windows
         - 应用 ：
           [OhMyPosh](系统/Windows/OhMyPosh.md) 、
+          [nushell](系统/Windows/nushell.md) 、
           [WINGET](系统/Windows/WINGET.md)
         - 远程或无人值守 ：
           [禁用断电重启后进入恢复模式](系统/Windows/禁用断电重启后进入恢复模式.md) 、
