@@ -60,6 +60,7 @@ https://github.com/niuhuan/notebook/
         - 依赖 ：
           [ObjectBox桌面端动态库](开发/Flutter/ObjectBox桌面端动态库.md)
     - Android
+        - [AVD](开发/Android/AVD.md)
         - [AVD将证书导入ROOT](开发/Android/AVD将证书导入ROOT.md)
         - [读取图片并保存到相册](开发/Android/读取图片并保存到相册.md)
         - [读取图片并转成PNG](开发/Android/读取图片并转成PNG.md)
