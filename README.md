@@ -25,6 +25,8 @@ https://github.com/niuhuan/notebook/
           [摘要及加密 (rsa/hex/md5)](开发/Rust/crates/摘要及加密.md) 、
           [rsmpeg (ffmpeg)](开发/Rust/crates/rsmpeg.md) 、
           [safer_ffi/python](开发/Rust/safer_ffi/python.md) 、 
+    - Cloudflare
+        - [如何在自定义浏览器验证](./开发/Cloudflare/如何在自定义浏览器验证.md)
     - Golang
         - [安装和配置](开发/Golang/安装和配置.md)
         - [自定义http域名解析](开发/Golang/自定义http域名解析.md)
