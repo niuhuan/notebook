@@ -1,3 +1,81 @@
+###
+
+```dockerfile
+# build stage
+FROM caddy:2-builder AS builder
+
+RUN xcaddy build \
+  --with github.com/mholt/caddy-l4
+
+# runtime stage
+FROM caddy:2
+
+COPY --from=builder /usr/bin/caddy /usr/bin/caddy
+```
+
+```yaml
+services:
+  caddy:
+    image: caddy-l4:latest
+    container_name: caddy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp" # 必须映射 UDP 端口，这是 HTTP/3 的命脉
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - ./data:/data
+      - ./config:/config
+      - ./certs:/certs # 如果使用自己的证书，挂载进来
+      - ./logs:/var/log/caddy
+    extra_hosts:
+      - "host.docker.internal:host-gateway" # 允许容器访问宿主机网络
+ ```
+
+```Caddyfile
+{
+    layer4 {
+       	# TCP-only, so HTTP/3 is out of scope
+        tcp/:443 {
+            # the upstream hostname includes a part of TLS SNI
+            @tls-regexp1 tls sni_regexp ^www.microsoft.com$
+            route @tls-regexp1 {
+                proxy host.docker.internal:8443
+            }
+            # the upstream hostname includes a part of TLS SNI
+            @tls-regexp2 tls sni_regexp ^cdn.xxx.work$
+            route @tls-regexp2 {
+                proxy host.docker.internal:4318
+            }
+            # full TLS SNI as the upstream hostname
+            #@tls-any tls
+            #route @tls-any {
+            #    proxy 127.0.0.1:3000
+            #}
+        }
+    
+    
+        udp/:443 {
+                @quic-regexp2 quic sni_regexp ^cdn.xxx.work$
+                route @quic-regexp2 {
+                    proxy host.docker.internal:4318
+                }
+                #@q quic
+                #route @q {
+                #    proxy udp/127.0.0.1:3000
+                #}
+        }
+
+    }
+}
+
+h3.xxx.work:3000 {
+    tls /certs/server.crt /certs/server.key
+}
+
+```
+
 
 ##
 docker-compose.yaml
