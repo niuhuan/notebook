@@ -186,10 +186,12 @@ https://github.com/niuhuan/notebook/
 - 游戏
     - 工具
         - [远程游玩](游戏/工具/远程游玩.md)
-    - 宝可梦                    azx
-        - [图鉴与翻译](游戏/宝可梦/图鉴与翻译.md)
+    - 塞尔达
+      - [织梦岛去除模糊+60帧](游戏/塞尔达/no_dof_blur.md)
     - 怪物猎人
         - [NS平台XX/GU启用60帧](游戏/怪物猎人/NS平台XX-GU启用60帧.md)
+    - 宝可梦
+      - [图鉴与翻译](游戏/宝可梦/图鉴与翻译.md)
     - [原神](游戏/原神.md)
     - 平台
         - [Steam](游戏/平台/Steam.md) :  [自定义Cover和Banner下载](游戏/平台/Steam.md#自定义cover和banner下载)
