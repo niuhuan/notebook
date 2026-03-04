@@ -183,6 +183,7 @@ https://github.com/niuhuan/notebook/
     - Linux
         - [Debian历史版本](系统/Debian/历史版本.md)
         - [UbuntuServer安装时未配置网络](系统/Ubuntu/UbuntuServer安装时未配置网络.md)
+        - [LUKS自动解锁](系统/Ubuntu/LUKS自动解锁.md)
 - 游戏
     - 工具
         - [远程游玩](游戏/工具/远程游玩.md)
