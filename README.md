@@ -118,6 +118,7 @@ https://github.com/niuhuan/notebook/
           )
         - [阿里云镜像仓库使用](运维/Docker/阿里云镜像仓库使用.md)
         - [新版Debian或Ubuntu执行`pip Install`](运维/Docker/新版Debian或Ubuntu执行pip_install.md)  
+        - [Nexus镜像](运维/Docker/Nexus镜像.md)
       - [安装](运维/Docker/安装.md)
         [OracleLinux](运维/Docker/安装.md#Oracle-linux) 、
       - [卸载](运维/Docker/卸载.md)
