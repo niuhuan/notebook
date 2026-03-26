@@ -76,8 +76,10 @@ https://github.com/niuhuan/notebook/
         - [基础](开发/华为/鸿蒙NEXT/基础.md)
         - [发布](开发/华为/鸿蒙NEXT/发布.md)
         - [Golang](开发/华为/鸿蒙NEXT/Golang.md)
-    - 任天堂游戏机开发
-        - [devkitPro开发环境搭建](开发/任天堂/devkitPro开发环境搭建.md)
+    - 游戏机开发
+        - [BlocksDS](开发/游戏平台/blocksds.md)
+        - [devkitPro_macOS](开发/游戏平台/devkitPro_macOS.md)
+        - [devkitPro开发环境搭建](开发/游戏平台/devkitPro开发环境搭建(WSL).md)
     - Git
         - [Git](开发/Git/Git.md)
     - BuildSystem ：
@@ -119,6 +121,7 @@ https://github.com/niuhuan/notebook/
         - [阿里云镜像仓库使用](运维/Docker/阿里云镜像仓库使用.md)
         - [新版Debian或Ubuntu执行`pip Install`](运维/Docker/新版Debian或Ubuntu执行pip_install.md)  
         - [Nexus镜像](运维/Docker/Nexus镜像.md)
+        - [启动ROOTFS](运维/Docker/启动ROOTFS.md)
       - [安装](运维/Docker/安装.md)
         [OracleLinux](运维/Docker/安装.md#Oracle-linux) 、
       - [卸载](运维/Docker/卸载.md)
@@ -198,7 +201,7 @@ https://github.com/niuhuan/notebook/
     - 平台
         - [Steam](游戏/平台/Steam.md) :  [自定义Cover和Banner下载](游戏/平台/Steam.md#自定义cover和banner下载)
     - 设备
-        - [SteamDeck](游戏/设备/SteamDeck.md)
+        - [WiiU/固化破解](游戏/设备/WiiU/固化破解.md)
 - 其他
     - [GoogleVoice自动保号](其他/GoogleVoice自动保号.md)
     - [AppStore取消购买和退款](其他/AppStore取消购买和退款.md)
