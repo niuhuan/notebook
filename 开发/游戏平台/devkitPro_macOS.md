@@ -24,3 +24,9 @@ sudo pacman -S gba-dev
 sudo pacman -S gba-dev
 sudo pacman -S switch-dev
 ```
+
+`sudo pacman -S 3ds-portlibs ppc-portlibs switch-portlibs`
+
+`/opt/devkitpro/portlibs/switch/bin/aarch64-none-elf-cmake`
+
+`cp -r /opt/devkitpro/examples/switch/templates/application/ ./my-new-project\ncd my-new-project`

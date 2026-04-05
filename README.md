@@ -79,6 +79,7 @@ https://github.com/niuhuan/notebook/
     - 游戏机开发
         - [BlocksDS](开发/游戏平台/blocksds.md)
         - [devkitPro_macOS](开发/游戏平台/devkitPro_macOS.md)
+        - [devkitPro_Windows](开发/游戏平台/devkitPro_Windows.md)
         - [devkitPro开发环境搭建](开发/游戏平台/devkitPro开发环境搭建(WSL).md)
     - Git
         - [Git](开发/Git/Git.md)
