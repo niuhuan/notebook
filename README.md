@@ -94,6 +94,7 @@ https://github.com/niuhuan/notebook/
           [网站工具](开发/工具/网站工具.md) 、
         - [制作ICO](开发/工具/制作ICO.md) 、
         - [IDEA](开发/工具/IDEA.md)
+        - [Cursor](开发/工具/Cursor.md) 、
         - [OPENSSL](开发/工具/Openssl.md)
     - 正则表达式
         - [ipv4](开发/正则/ipv4.md) 、
