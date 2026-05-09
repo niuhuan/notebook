@@ -207,6 +207,8 @@ https://github.com/niuhuan/notebook/
         - [Steam](游戏/平台/Steam.md) :  [自定义Cover和Banner下载](游戏/平台/Steam.md#自定义cover和banner下载)
     - 设备
         - [WiiU/固化破解](游戏/设备/WiiU/固化破解.md)
+        - [WiiU/vWii破解](游戏/设备/WiiU/vWii破解.md)
+        - [任天堂设备重置家长控制密码](游戏/设备/任天堂设备重置家长控制密码.md)
 - 其他
     - [GoogleVoice自动保号](其他/GoogleVoice自动保号.md)
     - [AppStore取消购买和退款](其他/AppStore取消购买和退款.md)
