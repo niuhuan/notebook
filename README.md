@@ -10,6 +10,7 @@ https://github.com/niuhuan/notebook/
           <br />
           [编译](开发/Rust/笔记.md#编译) ：
           [当用户选择一些features不合理时使得编译无法通过](开发/Rust/笔记.md#当用户选择一些features不合理时使得编译无法通过) 、
+          [交叉编译](开发/Rust/笔记.md#交叉编译) 、
           <br />
           [字符串](开发/Rust/笔记.md#字符串) ：
           [根据字符截取](开发/Rust/笔记.md#根据字符截取) 、
@@ -217,4 +218,3 @@ https://github.com/niuhuan/notebook/
           [删除账号](其他/Telegram.md#删除账号) 、
           [关闭Apple平台的敏感信息过滤](其他/Telegram.md#关闭apple平台的敏感信息过滤) 、
     - [V2rayU](其他/V2rayU.md)
-
